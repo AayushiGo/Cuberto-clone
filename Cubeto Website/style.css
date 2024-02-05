@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "matter";
+}
+
+html, body{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.home{
+    width: 100%;
+    padding: 0 10px;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img{
+    width: 150px;
+}
+
+.nav a{
+    position: inherit;
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 20px;
+     color: #000;
+     
+}
+
+.nav i{
+    position: fixed;
+    font-size: 1.2rem;
+    margin-left: 4.5rem;
+}
+
+
+.right{
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+.centre{
+    width: 100%;
+    padding: 0 vw;
+    
+    
+}
+
+.centre h1{
+    padding-left: 130px;
+    margin-top: 40px; 
+    font-size: 110px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 7rem;
+    
+}
+
+
+#takla{
+    position: fixed;
+    margin-left: 89.3%;
+    margin-top: -4%;
+    width: 6rem;
+    border-radius: 50%;
+    
+}
+
+
+.centre img{
+    position: fixed;
+    width: 8.1rem;
+    margin-left: 88%;
+    margin-top: -5%;
+    animation: rotate 12s linear infinite;
+    
+}
+
+
+#bx video{
+    align-items: center;
+    height: 120px;
+    width: 190px;
+    font-family: "matter light";
+    border-radius: 80px;
+    object-fit: cover;
+    margin: -25px 20px;
+    
+}
+
+#dig{
+    font-style: italic;
+    font-weight:100 ;
+}
+
+.second{
+    width: 100%;
+    height: 200vh;
+}
+
+.vid video{
+    width: 100%;
+    height: 100%;
+    overflow-x:  hidden;
+    object-fit: cover;
+    margin-top: 50px;
+
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.secmain{
+    padding: 7rem 11rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.text{
+    margin-left: 15rem;
+}
+
+
+.secmain h3{
+    font-family: "matter";
+    font-weight: 400;
+    font-size: 1.9rem;
+    
+}
+.secmain video{
+    width: 170%;
+}
+
+#button{
+    margin-top: 2.3rem;
+    height: 11rem;
+    width: 24rem;
+    border-radius: 50rem;
+    background-color: #fff;
+    bottom: 0;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 0.5px solid black;
+    transition: 0.6s ease-out;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+#button:hover{
+    color: #fff;
+    bottom: 100%;
+    background-color: #000;
+}
+
+
